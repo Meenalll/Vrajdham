@@ -1,0 +1,92 @@
+extends layout
+
+block content
+  br
+  br
+  .text-center
+      img.img-fluid(src='images/thakurjipic1.jpg', alt='Responsive image' height='450px' width='250px')
+      br
+      br
+      br
+  p.text-center(style='color:maroon;font-size:30px;font-weight:bold;') DARSHAN TIMINGS
+  p.text-center(style='color:maroon;font-size:20px;') Timings may vary on event days
+
+    table.table.table-bordered(style='background-color:orange;width:50%;margin-left:320px;color:maroon;')
+      thead
+        tr
+          th(scope='col') DAYS
+          th(scope='col') DARSHAN
+          th(scope='col') SATSANG
+          th(scope='col') YAMUNAJI AARTI
+      tbody
+        tr
+          th(scope='row') MONDAY to FRIDAY
+            td 6:00 PM to 7:30 PM
+            td 6:30 PM to 7:00 PM
+            td 7:00 PM
+        tr
+          th(scope='row') SATURDAY
+            td 11:00 AM to 12:30 PM & 5:30 PM to 7:30 PM
+            td No Satsang on Saturday
+            td 7:00 PM
+        tr
+          th(scope='row') SUNDAY
+            td 9:30 AM to 12:30 PM & 5:00 PM to 7:30 PM
+            td 5:30 PM to 7:00 PM
+            td 7:00 PM
+      br
+      br
+
+    .container
+      .row
+        .col-lg-3.mb
+          .card(style='width: 18rem;')
+
+            .card-body(style='background-color:maroon;color:orange;')
+              h5.card-title ABOUT VRAJDHAM
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-warning(href='/about') KNOW MORE
+        .col-lg-3.mb
+          .card(style='width: 18rem;')
+
+            .card-body(style='background-color:maroon;color:orange;')
+              h5.card-title BHET
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-warning(href='/bhet') KNOW MORE
+        .col-lg-3.mb
+          .card(style='width: 18rem;')
+
+            .card-body(style='background-color:maroon;color:orange;')
+              h5.card-title VRAJDHAM EDUCATION
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-warning(href='/contact') KNOW MORE
+        .col-lg-3.mb
+          .card(style='width: 18rem;')
+
+            .card-body(style='background-color:maroon;color:orange;')
+              h5.card-title CONTACT US
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-warning(href='/contact') KNOW MORE
+
+  .container(style='background-color:#ffff80;height:150px;')
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Vrajdham Facilities
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') ShriNathji Haveli, ShriVallabh Hall, Senior Game Room, Children-Youth Play Room/Gym, Class Rooms, ShriGusainji Hall, Library-Reading Rooms, Vaishnav Kitchen
+  br
+  br
+  .container(style='background-color:#ffff80;height:420px;')
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Ongoing Activites
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Every Sunday 2-4 PM : Hinduism-PushtiBhaktiMarg & Gujarati Language Education for the Young at Vraj Vaishnav Kendra(VVK-Parsippany). Sunday Satsang for the Adults
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Every Thursday 7-9 PM :Pushti Kirtan Education
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Ekadashi Satsang:If Week-Day then 7-8:30 PM, If week-End then 2-4 PM
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Vrajdham Youth Activities : Teaching Religion to younger Children, Dance Practice, Weekly Meet,..
+    p.text-center(style='color:maroon;font-size:20px;font-weight:bold;') Download Educational & Other Forms
+    p.text-center
+      a(href='../images/medical.pdf') Vrajdham Medical Form 2018-2019
+    p.text-center
+        a(href='../images/kendra.pdf') Vaishnav Education Registration Form-2018-2019
+    p.text-center
+          a(href='../images/parents.pdf') Parents Volunteer Registration for Sunday School

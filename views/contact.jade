@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  br
+  .container
+    .well.well-sm
+      h3.text-center(style='color:maroon;')
+        strong Contact Us
+      hr
+      .row
+        .col-md-3
+        .col-md-6
+          form(method="post", action="contact/send")
+            .form-group
+              input.form-control(type='text', name='name', value='', placeholder='Name' required)
+            .form-group
+              input.form-control(type='email', name='email', value='', placeholder='E-mail' required)
+            .form-group
+              input.form-control(type='tel', name='phone', value='', placeholder='Phone' required)
+            .form-group
+              textarea.form-control(name='message', rows='3', placeholder='Message')
+            p.text-center
+              button.btn.btn-warning(type='submit') Submit
